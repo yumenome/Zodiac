@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200;300;400&display=swap');
+body{
+    font-family: 'Grenze Gotisch', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background: transparent;
+    margin-top: -10px;
+    outline: 0;
+    border: 0; 
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 200;
+    cursor: pointer;
+    /* border-bottom: 1px solid #fff; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #fa9898;
+}
+button:hover{
+    color: #ff0202;
+}
+.name{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+.name:hover{
+    color: #ff0202;
+}
+.two_img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px ;
+}
+.loyal, .lifepurpose{
+    font-weight: 200;
+    border-top: 2px solid #fff;
+    padding: 10px 20px;
+    line-break: anywhere;
+}
+.character{
+    font-weight: 200;
+    border-top: 2px solid #fff;
+    padding: 10px 20px;
+    line-break: anywhere;
+    margin-bottom: 20px;
+    /* border-bottom: 2px solid #ff0000; */
+}
+.representativeflower, .prettyfeatures{
+    font-weight: 200;
+    border-top: 2px solid rgb(251, 251, 174);
+    padding: 10px 20px;
+    color: rgb(246, 246, 229);
+    line-break: anywhere;
+}
+.angry{
+    border-top: 2px solid rgb(233, 99, 99);
+    padding: 10px 20px;
+    color: rgb(255, 203, 203);
+    line-break: anywhere;
+}
+.trait{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trait_name{
+    min-width: 120px;
+}
+.trait_name:hover{
+    color: #ff0202;
+}
+.prog_bar{
+    width: 300px;
+    background: #fff;
+    height: 3px;
+}
+.progress{
+    background: #ff0202;
+    height: 3px;
+}
+.final{
+    border: 2px solid #fff;
+    margin: 5px 60px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200;300;400&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Grenze Gotisch', serif;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+
+}
+.bg_img{
+  width: 100%;
+  background-size: cover;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  margin-top: -20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 0;
+  padding-left: 7px;
+  background: transparent;
+  color: #ffff;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  font-size: 1.3rem;
+}
+input:hover{
+  color: #ff0202;
+}
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+html{
+    background: #000;
+}
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+html::-webkit-scrollbar-track{
+    background: black;
+}
+html::-webkit-scrollbar-thumb{
+    background: #d30303;
+    border-radius: 3rem;
+}
