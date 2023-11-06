@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import './UserZodiacSign.css'
 
+
 const UserSign = ({sign}) => {  //input signs
 
     const [zodiac, setZodiac] = React.useState([]);   //signs from api
