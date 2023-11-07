@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import './UserZodiacSign.css'
-
+import imgages from '../../images';
 
 const UserSign = ({sign}) => {  //input signs
 
