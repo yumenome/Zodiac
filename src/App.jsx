@@ -1,6 +1,6 @@
 import React from 'react'
 import UserZodiacSign from './components/UserZodiacSign'
-import wallpaper from '../images/wallpaper.jpg'
+import wallpaper from './images/wallpaper.jpg'
 import './App.css'
 const App = () => {
 
